@@ -86,3 +86,8 @@ function nameStats(arg) {
 
 console.log(nameStats(list)); //# sourceMappingURL=Task 5.js.map
 //# sourceMappingURL=Task 5.js.map
+//# sourceMappingURL=Task 5.js.map
+//# sourceMappingURL=Task 5.js.map
+//# sourceMappingURL=Task 5.js.map
+//# sourceMappingURL=Task 5.js.map
+//# sourceMappingURL=Task 5.js.map

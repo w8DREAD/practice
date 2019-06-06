@@ -2,9 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="298b4bbe-934b-49a7-a493-956c508981a4" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Task 5.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Task 5.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Task 1.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/Task 1.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Task 1.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/dist/Task 1.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Task 2.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/Task 2.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Task 2.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/dist/Task 2.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Task 3.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/Task 3.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Task 3.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/dist/Task 3.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Task 4.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/Task 4.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Task 4.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/dist/Task 4.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Task 5.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/Task 5.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Task 5.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/dist/Task 5.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Task 6.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/Task 6.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Task 6.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/dist/Task 6.js.map" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -21,7 +32,7 @@
         <entry file="file://$PROJECT_DIR$/src/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="150">
-              <caret line="10" column="7" lean-forward="true" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
+              <caret line="10" column="7" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -30,7 +41,7 @@
         <entry file="file://$PROJECT_DIR$/src/Task 1.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="30">
-              <caret line="2" column="20" lean-forward="true" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
+              <caret line="2" column="20" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
             </state>
           </provider>
         </entry>
@@ -39,7 +50,7 @@
         <entry file="file://$PROJECT_DIR$/src/Task 2.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="315">
-              <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+              <caret line="21" selection-start-line="21" selection-end-line="21" />
             </state>
           </provider>
         </entry>
@@ -48,7 +59,7 @@
         <entry file="file://$PROJECT_DIR$/src/Task 3.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="450">
-              <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
+              <caret line="30" selection-start-line="30" selection-end-line="30" />
             </state>
           </provider>
         </entry>
@@ -65,8 +76,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Task 5.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="763">
-              <caret line="80" column="31" selection-start-line="80" selection-start-column="31" selection-end-line="80" selection-end-column="31" />
+            <state relative-caret-position="405">
+              <caret line="27" column="9" lean-forward="true" selection-start-line="27" selection-start-column="9" selection-end-line="27" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -117,6 +128,7 @@
         <option value="$PROJECT_DIR$/src/Task 3.js" />
         <option value="$PROJECT_DIR$/src/Task 6.js" />
         <option value="$PROJECT_DIR$/src/index.html" />
+        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/src/Task 5.js" />
       </list>
     </option>
@@ -139,16 +151,6 @@
             <path>
               <item name="Practice" type="b2602c69:ProjectViewProjectNode" />
               <item name="Practice" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Practice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Practice" type="462c0819:PsiDirectoryNode" />
-              <item name="dist" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Practice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Practice" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -238,12 +240,12 @@
       <workItem from="1559722246481" duration="1734000" />
       <workItem from="1559724419184" duration="108000" />
       <workItem from="1559724530875" duration="64000" />
-      <workItem from="1559724769998" duration="23868000" />
+      <workItem from="1559724769998" duration="24530000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25774000" />
+    <option name="totallyTimeSpent" value="26436000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -256,7 +258,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="841" y="23" width="1716" height="1336" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20294985" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -354,21 +355,21 @@
     <entry file="file://$PROJECT_DIR$/src/Task 1.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
-          <caret line="2" column="20" lean-forward="true" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
+          <caret line="2" column="20" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Task 2.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
-          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Task 3.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="450">
-          <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
+          <caret line="30" selection-start-line="30" selection-end-line="30" />
         </state>
       </provider>
     </entry>
@@ -382,7 +383,7 @@
     <entry file="file://$PROJECT_DIR$/src/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
-          <caret line="10" column="7" lean-forward="true" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
+          <caret line="10" column="7" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
         </state>
       </provider>
     </entry>
@@ -393,10 +394,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="13" lean-forward="true" selection-start-column="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Task 5.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="763">
-          <caret line="80" column="31" selection-start-line="80" selection-start-column="31" selection-end-line="80" selection-end-column="31" />
+        <state relative-caret-position="405">
+          <caret line="27" column="9" lean-forward="true" selection-start-line="27" selection-start-column="9" selection-end-line="27" selection-end-column="9" />
         </state>
       </provider>
     </entry>
