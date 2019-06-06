@@ -1,1 +1,0 @@
-{"version":3,"sources":["../src/index.js"],"names":["a"],"mappings":";;;;;;;eAAe,SAAA,QAAA,CAAA,CAAA,EAAA,CAAA,EAAA;AAAA,SAAUA,CAAC,GAAX,CAAA","sourcesContent":["export default (a, b) => a + b;"],"file":"index.js"}

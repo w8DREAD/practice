@@ -1,1 +1,0 @@
-{"version":3,"sources":["../src/some-script.js"],"names":["s","a","console"],"mappings":";;AAAA,IAAMA,CAAC,GAAG,SAAJA,CAAI,CAAA,CAAA,EAAA,CAAA,EAAA;AAAA,SAAUC,CAAC,GAAX,CAAA;AAAV,CAAA;;AACAC,OAAO,CAAPA,GAAAA,CAAAA,CAAAA,EAAAA,CAAAA","sourcesContent":["const s = (a, b) => a + b;\nconsole.log(1, 3);"],"file":"some-script.js"}
