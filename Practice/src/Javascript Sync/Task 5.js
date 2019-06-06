@@ -84,4 +84,6 @@ function nameStats(arg) {
 
     return stats;
 }
+
+
 console.log(nameStats(list));

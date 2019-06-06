@@ -28,7 +28,7 @@ function catsGroupGenerate(n) {
     return x;
 };
 
-const list = catsGroupGenerate(30);
+const list = catsGroupGenerate(25);
 
 function catsGender(arg, g = "Male") {
 
@@ -57,37 +57,28 @@ function catsName(arg) {
 
 function oldCatsMale (arg, n = 3) {
 
-    var i = 0;
     var catsMale = catsGender(arg);
-    var byAge = catsMale.slice(0);
-    var cats = [];
 
-    byAge.sort(function (a, b) {
+    catsMale.sort(function (a, b) {
        return b.age - a.age;
     });
 
-    while (i < n) {
-        cats.push(byAge[i]);
-        i++
-    }
+    var cats = catsMale.slice(0, n);
     return cats;
 };
 
+var xy;
+
 function youngCatsFemale (arg, n = 3) {
 
-    var i = 0;
     var catsFemale = catsGender(arg, "Female");
-    var byAge = catsFemale.slice(0);
-    var cats = [];
 
-    byAge.sort(function (a, b) {
+    catsFemale.sort(function (a, b) {
         return a.age - b.age;
     });
 
-    while (i < n) {
-        cats.push(byAge[i]);
-        i++
-    }
+   var cats = catsFemale.slice(0, n);
+   xy = catsFemale.slice(n);
     return cats;
 }
 

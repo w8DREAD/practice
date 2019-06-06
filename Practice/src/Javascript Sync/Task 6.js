@@ -8,7 +8,7 @@ function pick(arg) {
     return arg[Math.round(Math.random()*(arg.length - 1))]
 }
 
-function catFactory(arg) {
+function catFactory() {
 
     var cat = {
         name: pick(arrName),
