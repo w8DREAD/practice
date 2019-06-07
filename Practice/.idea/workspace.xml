@@ -2,15 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="298b4bbe-934b-49a7-a493-956c508981a4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Тестирование кода/test/test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/test.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Javascript Sync/Task 1.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Javascript Sync/Task 1.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Javascript Sync/Task 2.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Javascript Sync/Task 2.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Javascript Sync/Task 4.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Javascript Sync/Task 4.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Javascript Sync/Task 5.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Javascript Sync/Task 5.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Javascript Sync/Task 6.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Javascript Sync/Task 6.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -27,34 +21,25 @@
         <entry file="file://$PROJECT_DIR$/src/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="180">
-              <caret line="12" column="7" lean-forward="true" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Javascript Sync/Task 5.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="778">
-              <caret line="86" selection-start-line="86" selection-end-line="86" />
+              <caret line="12" column="7" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Javascript Sync/Task 6.js">
+        <entry file="file://$PROJECT_DIR$/src/Javascript Sync/Task 5.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="555">
-              <caret line="37" lean-forward="true" selection-start-line="37" selection-end-line="37" />
+            <state relative-caret-position="493">
+              <caret line="67" column="30" selection-start-line="67" selection-start-column="30" selection-end-line="67" selection-end-column="30" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Тестирование кода/test/test.js">
+        <entry file="file://$PROJECT_DIR$/src/Javascript Sync/Task 6.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="523">
-              <caret line="296" lean-forward="true" selection-start-line="296" selection-end-line="296" />
+            <state>
+              <caret selection-end-line="32" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -110,12 +95,14 @@
         <option value="$PROJECT_DIR$/src/index.html" />
         <option value="$PROJECT_DIR$/src/Тестирование кода/test/test.js" />
         <option value="$PROJECT_DIR$/src/Javascript Sync/Task 6.js" />
+        <option value="$PROJECT_DIR$/src/test/package.json" />
+        <option value="$PROJECT_DIR$/src/test/test.js" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="614" />
-    <option name="y" value="28" />
+    <option name="x" value="1122" />
+    <option name="y" value="104" />
     <option name="width" value="1716" />
     <option name="height" value="1336" />
   </component>
@@ -141,12 +128,7 @@
               <item name="Practice" type="b2602c69:ProjectViewProjectNode" />
               <item name="Practice" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Javascript Sync" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Practice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Practice" type="462c0819:PsiDirectoryNode" />
-              <item name="Task 1,2 HTML" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -244,7 +226,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="51693000" />
+    <option name="totallyTimeSpent" value="51821000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -256,7 +238,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="615" y="28" width="1716" height="1336" extended-state="0" />
+    <frame x="1122" y="104" width="1716" height="1336" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20294985" />
@@ -339,13 +321,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Тестирование кода/test/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Тестирование кода/test/package.json" />
     <entry file="file://$PROJECT_DIR$/Task 1,2 HTML/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -394,31 +370,39 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Javascript Sync/Task 5.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="778">
-          <caret line="86" selection-start-line="86" selection-end-line="86" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
-          <caret line="12" column="7" lean-forward="true" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
+          <caret line="12" column="7" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Тестирование кода/test/test.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="523">
-          <caret line="296" lean-forward="true" selection-start-line="296" selection-end-line="296" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Тестирование кода/test/test.js" />
     <entry file="file://$PROJECT_DIR$/src/Javascript Sync/Task 6.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="555">
-          <caret line="37" lean-forward="true" selection-start-line="37" selection-end-line="37" />
+        <state>
+          <caret selection-end-line="32" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="1" lean-forward="true" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="868">
+          <caret line="332" column="2" selection-start-line="332" selection-start-column="2" selection-end-line="332" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Javascript Sync/Task 5.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="67" column="30" selection-start-line="67" selection-start-column="30" selection-end-line="67" selection-end-column="30" />
         </state>
       </provider>
     </entry>
