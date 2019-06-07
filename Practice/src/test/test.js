@@ -1,4 +1,6 @@
 var assert = require('assert');
+var chai = require('chai');
+
 var arrName = ["Murka", "Barsik", "Lidka", "Zinka", "Tima", "Simba", "Durka", "Glasha", "Scot", "Scotina"];
 var arrAge = [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12];
 var arrGender = ["Male", "Female"];
@@ -8,61 +10,68 @@ var list = catsGroupGenerate(15);
 
 var remainsOld, remainsYoung;
 
-
 describe('Проверка функции pick', () => {
 
-    it('Проверка вернувшего числа', () => {
-        assert(1 || 2 == pick([1, 2]))
+    it('Имеет ли данный массив вернувшее значение', () => {
+        chai.assert.include(arrName, pick(arrName))
     });
 });
 
 describe('Проверка функции catFactory', () => {
 
-    describe('Проверка значений свойств вернувшего объекта', () => {
         it('Проверка свойства name', () => {
-            assert(testCat(arrName, cat.name));
+            assert("name" == Object.keys(catFactory())[0]);
         });
+
         it('Проверка свойства age', () => {
-            assert(testCat(arrAge, cat.age));
+            assert("age" == Object.keys(catFactory())[1]);
         });
+
         it('Проверка свойства gender', () => {
-            assert(testCat(arrGender, cat.gender));
+            assert("gender" == Object.keys(catFactory())[2]);
         });
+
         it('Проверка свойства legsCount', () => {
-            assert(testCat(arrLegsCount, cat.legsCount));
+            assert("legsCount" == Object.keys(catFactory())[3]);
         });
+
         it('Проверка свойства tailLength', () => {
-            assert(testCat(arrTailLength, cat.tailLength));
+            assert("tailLength" == Object.keys(catFactory())[4]);
         });
-    });
 });
 
 
 describe('Проверка функции catsGroupGenerate', () => {
 
-    it('Проверка типа данных массива на наличие объектов', () => {
-        assert(checkGenerate(catsGroupGenerate(115)));
+    it('Выводимый результат должен быть массивом', () => {
+        chai.assert.isArray(catsGroupGenerate(15));
+    });
+
+    it('Массив должен состоять из объектов', () => {
+        chai.assert.isObject(catsGroupGenerate(15)[8]);
     });
 });
 
 describe('Проверка функции catsName', () => {
 
+    it('Выводимый результат должен быть массивом', () => {
+        chai.assert.isArray(catsName(list));
+    });
+
     it('Проверка типа данных массива на наличие строк', () => {
-        assert(checkName(catsName(list)));
+        assert(typeof '', catsName(list)[5]);
     });
 });
 
 describe('Проверка функции catsGender', () => {
 
     it('Проверка данных на значение "Male" в свойстве "Gender"', () => {
-        assert(checkGender(catsGender(list)));
+        var n = catsGender(list);
+        chai.assert.notInclude(n, {gender: 'Female'});
     });
-});
 
-describe('Проверка функции catsGender', () => {
-
-    it('Проверка данных на значение "Male" в свойстве "Gender"', () => {
-        assert(checkGender(catsGender(list)));
+    it('Выводимый результат должен быть массивом', () => {
+        chai.assert.isArray(catsGender(list));
     });
 });
 
@@ -85,7 +94,8 @@ describe('Проверка функции oldCatsMale', () => {
 describe('Проверка функции nameStats', () => {
 
     it('Проверка суммы количества созданных имен', () => {
-        assert(checkSum(nameStats(list)));
+        var n = sum(nameStats(list));
+        assert(list.length == n);
     });
 });
 
@@ -103,16 +113,12 @@ describe('Проверка функции catFactory2', () => {
 });
 
 
-function checkSum (obj) {
+function sum (obj) {
     var res = 0;
     for (key in obj) {
         res += obj[key];
     }
-    if (list.length != res) {
-        return false
-    }
-    console.log('Количества имен совпадают');
-    return true
+    return res;
 }
 
 function checkYoung(arr1, arr) {
@@ -141,57 +147,6 @@ function checkOld(arr1, arr) {
 }
 
 
-function checkGender(arr) {
-    var i = 0;
-    while (i < arr.length) {
-        if('Male' != arr[i].gender) {
-            return false;
-        }
-        i++
-    }
-    console.log('В объектах массива все значения "Male"');
-    return true;
-}
-
-
-function checkName (arr) {
-    var i = 0;
-    while (i < arr.length) {
-        if(typeof arr[i] != typeof '') {
-            return false;
-        }
-        i++
-    }
-    console.log('Массив состоит из строк');
-    return true;
-}
-
-var cat = catFactory();
-
-function checkProp (arr, props) {
-    var i = 0;
-    var res;
-    while (i < arr.length) {
-        if (props === arr[i]) {
-            res = arr[i];
-            break;
-        }
-        i++
-    }
-    return res;
-};
-
-function testCat (arr, props) {
-    if (props == checkProp(arr, props)) {
-        console.log(`Значение в свойстве: ${props}`);
-        return true;
-
-    } else {
-
-        return false;
-    }
-};
-
 function catsGroupGenerate(n) {
     let x = [];
     let i = 0;
@@ -200,19 +155,6 @@ function catsGroupGenerate(n) {
         i++;
     }
     return x;
-}
-
-
-function checkGenerate (arr) {
-    var i = 0;
-    while (i < arr.length) {
-        if(Array.isArray(arr[i]) || typeof arr[i] != typeof {}) {
-            return false;
-        }
-        i++
-    }
-    console.log('Массив состоит из объектов');
-    return true;
 }
 
 function pick(arg) {
