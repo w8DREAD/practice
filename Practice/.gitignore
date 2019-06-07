@@ -1,8 +1,0 @@
-/node_modules
-/dist
-/.idea
-.babelrc
-.gitignore
-package-lock.json
-babel.config.js
-/.idea
