@@ -1,0 +1,11 @@
+{
+  "name": "testcat",
+  "version": "1.0.0",
+  "description": "",
+  "main": "catFactory.js",
+  "scripts": {
+    "test": "Mocha 'catFactory.js'"
+  },
+  "author": "",
+  "license": "ISC"
+}
