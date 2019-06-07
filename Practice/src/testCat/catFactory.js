@@ -9,8 +9,8 @@ var arrTailLength = [10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20];
 
 describe('Проверка функции catFactory', () => {
 
-    it('Проверка свойства name', () => {
-        assert("loudness" == Object.keys(catFactory())[0]);
+    it('Проверка свойства loudness', () => {
+        assert("loudness" == Object.keys(catFactory())[5]);
     });
 });
 
@@ -25,7 +25,8 @@ function catFactory() {
         age: pick(arrAge),
         gender: pick(arrGender),
         legsCount: pick(arrLegsCount),
-        tailLength: pick(arrTailLength)
+        tailLength: pick(arrTailLength),
+        loudness: 'meow'
     };
     for (i=0; i < arguments.length; i++) {
 
