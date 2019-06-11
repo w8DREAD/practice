@@ -32,27 +32,18 @@ const list = catsGroupGenerate(25);
 
 function catsGender(arg, g = "Male") {
 
-    var cats = [];
-
-    arg.forEach(function (cur) {
-        if (cur.gender == g) {
-            cats.push(cur)
-        }
+    return arg.filter( (elem) => {
+            return elem.gender == g;
     });
-    return cats;
+
 };
 
 function catsName(arg) {
 
-    var cats = [];
-
-    arg.forEach(function (cur, ind) {
-
-        cats.push(arg[ind].name)
-        
+    return arg.map( (elem) => {
+        return elem.name
     });
 
-    return cats;
 };
 
 function oldCatsMale (arg, n = 3) {
@@ -64,10 +55,10 @@ function oldCatsMale (arg, n = 3) {
     });
 
     var cats = catsMale.slice(0, n);
+
     return cats;
 };
 
-var xy;
 
 function youngCatsFemale (arg, n = 3) {
 
@@ -78,7 +69,7 @@ function youngCatsFemale (arg, n = 3) {
     });
 
    var cats = catsFemale.slice(0, n);
-   xy = catsFemale.slice(n);
+
     return cats;
 }
 

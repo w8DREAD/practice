@@ -51,32 +51,21 @@ function catsName(arg) {
     return cats;
 };
 
-const list = catsGroupGenerate(50);
+const list = catsGroupGenerate(15);
 
 function nameStats(arg) {
 
     var stats = {};
     var allNames = catsName(arg);
-    var i = 0;
 
-    while (i < allNames.length) {
+    allNames.forEach((elem) => {
 
-        var str = allNames[i];
-
-        stats[str] = true;
-        i++
-
-    };
-
-    for (key in stats) {
-            var i = 0;
-        allNames.forEach( cur => {
-                if (key == cur) {
-                    i++
-                }
-                stats[key] = i;
-        });
-    }
+        if (stats.hasOwnProperty(elem)) {
+            stats[elem] += 1
+        } else {
+            stats[elem] = 1;
+        }
+    });
 
     return stats;
 }
