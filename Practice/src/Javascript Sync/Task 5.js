@@ -20,11 +20,7 @@ function catFactory(arg) {
     for (i=0; i < arguments.length; i++) {
 
         for (var key in arguments[i]) {
-            for (var prop in cat) {
-                if (key == prop) {
-                    cat[key] = arguments[i][key]
-                }
-            }
+            if (cat.hasOwnProperty(key)) cat[key] = arguments[i][key]
         }
     }
 

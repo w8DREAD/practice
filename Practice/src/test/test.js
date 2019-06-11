@@ -94,8 +94,10 @@ describe('Проверка функции oldCatsMale', () => {
 describe('Проверка функции nameStats', () => {
 
     it('Проверка суммы количества созданных имен', () => {
-        var n = sum(nameStats(list));
-        assert(list.length == n);
+        var list = catsGroupGenerate(15);
+        var stats = nameStats(list)
+        var n = sum(stats);
+        assert.equal(list.length, n);
     });
 });
 
