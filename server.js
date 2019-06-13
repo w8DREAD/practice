@@ -10,5 +10,5 @@ const   http = require('http'),
 
 
 http.createServer(function(request, response){
-    response.end(`${JSON.stringify(nameStats(catsGroupGenerate(25)))}`);
+    response.end('Hello git merge');
 }).listen(3000);
